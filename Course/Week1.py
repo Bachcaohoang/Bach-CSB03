@@ -1,3 +1,10 @@
+'''
+fruit = ['car','toy','boy']
+x,y,z= fruit
+print (x)
+print (y)
+print (z)
+'''
 from turtle import *
 #improt * là lấy hết tất cả của thư viện
 '''''
