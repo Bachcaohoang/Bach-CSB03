@@ -32,6 +32,7 @@ right(72)
 forward(90)
 mainloop()
 '''
+'''
 pen
 left(45)
 forward(200)
@@ -45,3 +46,4 @@ left(144)
 forward(200)
 
 mainloop()
+'''

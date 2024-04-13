@@ -27,8 +27,9 @@ print('Name\t:\t ',Name,'\nBirthdate\t:\t',Birthdate)
 #BÀI4
  #ko  biết làm pháo hoa
 '''
-Name = input('year')
-print("What year is it?\n",Name,'\n\n HAPPY NEW YEAR\n ','!!',Name,"!!")     
+a = input("What year is it? \n")
+print("\n\t\t\t   . : .\n\t\t\t '.  :  .'\n HAPPY NEW YEAR\t        .  '.:.'  .\n !!!",a,"!!!\t\t.  .':'.  .     \n\t\t\t .'  :  '.\n\t\t\t   ' : '")
+print("")
 ''' 
 #BÀI5
 '''
