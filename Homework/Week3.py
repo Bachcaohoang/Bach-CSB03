@@ -47,3 +47,36 @@ elif a+b>c:
 else:
     print('k phai la canh cua tam giac') """
 #Bai7
+""" a = float(input('Nhap vao so thuc 1: '))
+b = float(input('Nhap vao so thuc 2: '))
+c = float(input('Nhap vao so thuc 3: '))
+
+mang = [a,b,c]
+if a + b > c and a + c > b and b + c > a:
+    if a==b==c:
+        print('la tam giac can')
+        from turtle import *
+        pen()
+        backward(a)
+        left(60)
+        forward(a)
+        left(60)
+        backward(a)
+        right(60)
+        mainloop()
+    elif a*a+b*b == c*c or a*a+c*c == b*b or c*c+b*b == a*a:
+        print('la tam giac vuong')
+    else:
+        print('la tam giac thuong')
+else:
+    print('khong phai la tam giac') """
+#Bai8
+""" for i in range(21):
+    if i % 3 ==0:
+        print(i) """
+#Bai9
+""" try: 
+    number = int(input('Nhap vao so nguyen: '))
+    print(len(str(number)))
+except ValueError:
+    print("Phải nhập số nguyen") """
