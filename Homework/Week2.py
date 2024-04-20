@@ -24,6 +24,7 @@ print('Full email:',Fullname)
 '''
 day = input("Date in MM/DD/YYYY format: ")
 print(day)
+#dung format    
 '''
 
 #B5
