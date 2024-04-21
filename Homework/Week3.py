@@ -75,8 +75,3 @@ else:
     if i % 3 ==0:
         print(i) """
 #Bai9
-""" try: 
-    number = int(input('Nhap vao so nguyen: '))
-    print(len(str(number)))
-except ValueError:
-    print("Phải nhập số nguyen") """
