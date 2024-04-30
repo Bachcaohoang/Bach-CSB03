@@ -26,27 +26,41 @@ mainloop() """
  print(x)
  """
 #2. 0 to n sequence
-""" i = int(input('nhap so:'))
-while i >-1:
-  print(i)
-  i -= 1 """
+
+# i = int(input("Input a number: "))
+# while i < 0: 
+#      print("Please enter a number greater than or equal to 0.")
+#      i = int(input("Input a number:"))
+# print(*range(0, i +1, 1))
+
+  
 #3.  0 to n odd sequence
-""" a = int(input("Nhap vao 1 so: "))
-for b in range(1,a+1,2):
-    print(b) """
+""" 
+a = int(input("Nhap vao 1 so: "))
+while a<1:
+   print("Please enter a number greater than  0.")
+   a = int(input("Nhap vao 1 so: "))
+else:
+ for b in range(1,a+1,2):
+    print(b)
+ """
 #4.Polygon with custom edge number
-""" import turtle 
-size = int(input('nhap canh')) 
-sides = int(input('nhap canh'))
-for_in range(size):
- pen.forward
- pen.right(360/size) """
+# from turtle import * 
+# pen
+# n = int(input("Input number of sides: "))
+# for i in range(n):
+#      forward(50)
+#      left(360 / n)
+# mainloop()
 
 
 #Phần 3.
 #1.  Larger than 13
-""" i = int(input('nhap so:'))
-if i<13: print("This number is not larger than 13") """
+# i = int(input('nhap so:'))
+# if i>13: 
+#     print("This number is  larger than 13") 
+# elif i<13:
+#     print("This number is not larger than 13")
 #2.Even check
 """ a = int(input('Nhập vào số nguyên: '))
 if a % 2  ==0:

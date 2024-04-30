@@ -7,27 +7,28 @@
 #a =16
 #print(f"bach {a} hai")
 #1
-'''
+""" 
 txt = input("Hello World")
 print(txt [::-1])
-'''
+ """
 #: ":"vi tri dau den cuoi "-" bắt đầu cắt
 #3
-''''
+""" 
 y= input('Nhapten')
-x = y.strip
-'''
+x = y.strip()
+print("HI",x,'bye')
+ """
 #2
-'''
+""" 
 a = input('Ten')
 b = input('so lan')
 c= a.count(b)
 print(c)
-'''
-'''
+ """
+""" 
 a = 20//5*2
 print(a)
-'''
+"""
 #từ trái sang phải
 #b1
 '''
@@ -37,7 +38,6 @@ x= (a+b)
 y= (a-b)
 z= (a/b)
 v=(a*b)
-
 print('CỘNG',int(x),float(x),'trừ',int(y),float(y),"chia", int(z),float(z),"Nhan",int(x),float(x) )
 '''
 
