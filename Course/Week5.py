@@ -68,22 +68,22 @@ print(tuplesba)
 #     y+=1  
 
 #B2 Tính tổng các số trong một list (List nhập từ bàn phím)
-NumList=[]       
-evenSum=0     
-oddSum=0        
-Number=int(input("Please enter the total number of list elements: "))
-for i in range(1, Number+1):
-     value=int(input("Please enter the value of %d Eleements: " %i))
-     NumList.append(value)
-def total(x):
-     sum =0
-for i in x:
-    sum +=i
-print(total(Number))
-#  nums = [1, 2, 3, 4, 5, 6]
-#  def totalNums(x):
-#      sum = 0
-#      for i in x:
-#          sum += i
-#      return sum
-#  print(totalNums(nums))                                                                                    
+# NumList=[]       
+# evenSum=0     
+# oddSum=0        
+# Number=int(input("Please enter the total number of list elements: "))
+# for i in range(1, Number+1):
+#      value=int(input("Please enter the value of %d Eleements: " %i))
+#      NumList.append(value)
+# def total(x):
+#      sum =0
+# for i in x:
+#     sum +=i
+# print(total(Number))
+nums = [1, 2, 3, 4, 5, 6]
+def totalNums(x):
+    sum = 0
+    for i in x:
+        sum += i
+    return sum
+print(totalNums(nums))                                                                                    
